@@ -7,7 +7,8 @@ const notesContainer = document.querySelector(".notes-container");
       }
       shownotes();
 
-      function updateStorage() {
+      function updateStorage() 
+      {
         localStorage.setItem("notes", notesContainer.innerHTML);
       }
 
